@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import mongoose, {Schema} from "mongoose";
+import {Schema} from "mongoose";
 
 const schema = new Schema({
     name: String,
