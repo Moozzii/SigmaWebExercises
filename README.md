@@ -1,0 +1,1 @@
+This is a series of web dev exercises from the of web development by harry bhai(CodeWithHarry). 
