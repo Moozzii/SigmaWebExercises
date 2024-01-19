@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise_16</title>
+</head>
+<body>
+    <button class="btn">Genrate Data</button>
+    
+    <script>
+        var btn = document.querySelector('.btn');
+btn.addEventListener('click', async function(){
+    const fetching = await fetch('http://localhost:5000/generatedata', {
+                method: 'POST',  // Specify the request method
+                headers: {
+                    'Content-Type': 'application/json',  // Set the content type
+                    
+                }});
+    const data = await fetching.json();
+    console.log("Data inserted");
+})
+
+    </script>
+</body>
+</html>
