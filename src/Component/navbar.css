@@ -1,0 +1,24 @@
+nav{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: rgb(73, 7, 153);
+}
+.logo{
+   font-size: larger;
+   font-weight: bold;
+   padding-left: 30px;
+   height: 100%;
+}
+
+ul{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+li{
+    
+    padding: 12px;
+}
